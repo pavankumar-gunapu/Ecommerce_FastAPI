@@ -1,0 +1,51 @@
+product_id,product_name,category,price,rating,stock,discount
+1,Smart Watch Electronics 01,Electronics,60.6,3.9,65,20
+2,Everyday Home 02,Home,362.88,3.0,28,15
+3,Premium Books 03,Books,265.57,3.7,73,15
+4,Wireless Headphones Beauty 04,Beauty,355.7,4.5,62,15
+5,Smart Watch Sports 05,Sports,191.97,2.8,10,0
+6,Everyday Electronics 06,Electronics,129.19,3.0,1,20
+7,Premium Home 07,Home,212.04,3.5,50,5
+8,Wireless Headphones Books 08,Books,153.84,5.0,45,10
+9,Smart Watch Beauty 09,Beauty,419.86,3.9,9,20
+10,Everyday Sports 10,Sports,150.88,4.0,37,5
+11,Premium Electronics 11,Electronics,198.64,4.7,90,20
+12,Wireless Headphones Home 12,Home,247.59,2.9,90,5
+13,Smart Watch Books 13,Books,160.33,3.7,51,15
+14,Everyday Beauty 14,Beauty,238.22,4.7,54,15
+15,Premium Sports 15,Sports,339.44,4.7,62,10
+16,Wireless Headphones Electronics 16,Electronics,386.04,3.4,53,15
+17,Smart Watch Home 17,Home,389.9,3.9,66,0
+18,Everyday Books 18,Books,246.81,4.5,6,20
+19,Premium Beauty 19,Beauty,225.47,4.3,79,10
+20,Wireless Headphones Sports 20,Sports,203.78,3.9,29,0
+21,Smart Watch Electronics 21,Electronics,267.68,3.8,60,20
+22,Everyday Home 22,Home,391.22,5.0,69,5
+23,Premium Books 23,Books,240.4,4.3,39,15
+24,Wireless Headphones Beauty 24,Beauty,338.32,3.9,61,10
+25,Smart Watch Sports 25,Sports,188.69,3.4,34,0
+26,Everyday Electronics 26,Electronics,25.51,4.2,76,10
+27,Premium Home 27,Home,339.85,4.8,46,0
+28,Wireless Headphones Books 28,Books,118.13,3.9,65,10
+29,Smart Watch Beauty 29,Beauty,341.65,4.0,4,5
+30,Everyday Sports 30,Sports,141.2,4.8,12,10
+31,Premium Electronics 31,Electronics,293.25,4.5,65,5
+32,Wireless Headphones Home 32,Home,196.79,4.9,54,20
+33,Smart Watch Books 33,Books,207.49,2.9,34,10
+34,Everyday Beauty 34,Beauty,163.01,3.2,52,0
+35,Premium Sports 35,Sports,195.35,2.8,0,10
+36,Wireless Headphones Electronics 36,Electronics,248.9,4.9,10,15
+37,Smart Watch Home 37,Home,335.86,3.3,79,0
+38,Everyday Books 38,Books,318.76,4.9,85,20
+39,Premium Beauty 39,Beauty,157.76,2.8,85,15
+40,Wireless Headphones Sports 40,Sports,246.31,4.8,62,20
+41,Smart Watch Electronics 41,Electronics,305.95,3.1,28,10
+42,Everyday Home 42,Home,251.88,4.9,88,15
+43,Premium Books 43,Books,130.6,3.7,20,0
+44,Wireless Headphones Beauty 44,Beauty,331.64,4.8,39,15
+45,Smart Watch Sports 45,Sports,180.11,4.6,66,0
+46,Everyday Electronics 46,Electronics,165.41,4.9,49,0
+47,Premium Home 47,Home,32.96,3.6,45,0
+48,Wireless Headphones Books 48,Books,22.44,3.8,87,5
+49,Smart Watch Beauty 49,Beauty,195.66,4.8,63,10
+50,Everyday Sports 50,Sports,245.22,4.6,19,15

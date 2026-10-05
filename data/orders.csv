@@ -1,0 +1,501 @@
+order_id,customer_id,product_id,quantity,order_date,price,payment_method,order_status
+1,100,31,4,2025-10-19,278.59,Card,delivered
+2,29,41,1,2025-12-29,275.36,Apple Pay,delivered
+3,27,30,3,2025-09-17,127.08,Card,delivered
+4,25,35,1,2026-06-25,175.81,PayPal,delivered
+5,29,30,2,2026-04-09,127.08,Apple Pay,delivered
+6,54,46,2,2026-06-12,165.41,Card,delivered
+7,54,3,2,2025-04-23,225.73,PayPal,cancelled
+8,61,43,3,2025-10-14,130.6,Apple Pay,delivered
+9,62,17,4,2025-10-31,389.9,Apple Pay,delivered
+10,63,9,1,2025-05-26,335.89,Apple Pay,delivered
+11,97,30,2,2025-09-19,127.08,Apple Pay,delivered
+12,94,26,3,2026-02-19,22.96,Card,processing
+13,9,47,3,2025-05-24,32.96,Card,processing
+14,67,39,3,2025-05-18,134.1,Apple Pay,delivered
+15,47,12,1,2026-04-05,235.21,Apple Pay,cancelled
+16,68,34,4,2026-06-14,163.01,PayPal,delivered
+17,31,14,4,2025-04-28,202.49,PayPal,delivered
+18,35,50,4,2026-05-14,208.44,Apple Pay,delivered
+19,84,26,2,2026-04-28,22.96,PayPal,delivered
+20,17,43,1,2026-08-26,130.6,Apple Pay,processing
+21,23,9,3,2025-09-30,335.89,PayPal,delivered
+22,24,45,1,2026-03-24,180.11,PayPal,delivered
+23,80,32,1,2025-11-27,157.43,PayPal,delivered
+24,70,6,4,2025-08-10,103.35,PayPal,processing
+25,19,46,1,2025-06-05,165.41,Card,delivered
+26,46,38,3,2025-10-29,255.01,Card,delivered
+27,25,6,4,2025-07-14,103.35,PayPal,processing
+28,22,16,2,2025-05-12,328.13,PayPal,delivered
+29,69,28,4,2025-06-17,106.32,Apple Pay,delivered
+30,40,41,4,2025-05-25,275.36,Card,processing
+31,28,48,2,2026-06-04,21.32,Card,delivered
+32,87,40,2,2026-06-05,197.05,PayPal,delivered
+33,56,13,4,2026-08-30,136.28,PayPal,delivered
+34,82,18,3,2025-09-22,197.45,Gift Card,delivered
+35,67,30,3,2025-10-03,127.08,Gift Card,cancelled
+36,14,10,2,2025-09-28,143.34,Gift Card,delivered
+37,82,38,1,2025-10-31,255.01,Apple Pay,cancelled
+38,11,30,4,2025-10-11,127.08,Card,processing
+39,38,3,1,2026-08-19,225.73,Card,delivered
+40,58,37,1,2025-08-31,335.86,Gift Card,delivered
+41,70,2,2,2025-11-08,308.45,PayPal,delivered
+42,51,6,2,2026-01-12,103.35,Card,cancelled
+43,96,5,1,2025-10-23,191.97,PayPal,delivered
+44,61,16,3,2025-06-08,328.13,PayPal,delivered
+45,66,21,4,2026-08-19,214.14,Gift Card,delivered
+46,24,29,2,2026-06-06,324.57,Gift Card,delivered
+47,62,34,1,2025-05-08,163.01,PayPal,delivered
+48,5,34,4,2026-05-10,163.01,Apple Pay,delivered
+49,67,21,3,2025-07-15,214.14,Card,delivered
+50,67,11,1,2025-09-18,158.91,PayPal,delivered
+51,71,11,4,2025-08-11,158.91,Card,processing
+52,54,26,1,2026-01-23,22.96,PayPal,delivered
+53,97,11,3,2025-09-12,158.91,Card,delivered
+54,5,14,1,2025-06-29,202.49,Card,delivered
+55,89,30,1,2026-03-20,127.08,Gift Card,delivered
+56,12,11,1,2025-12-19,158.91,PayPal,delivered
+57,80,42,1,2025-06-05,214.1,Apple Pay,delivered
+58,90,47,2,2025-04-19,32.96,PayPal,delivered
+59,7,35,3,2026-02-09,175.81,Gift Card,delivered
+60,32,3,1,2025-08-03,225.73,Gift Card,delivered
+61,57,44,2,2026-04-08,281.89,PayPal,delivered
+62,26,33,3,2025-08-17,186.74,Apple Pay,cancelled
+63,84,11,4,2026-06-28,158.91,Card,delivered
+64,96,49,2,2025-04-19,176.09,PayPal,processing
+65,61,45,2,2025-11-04,180.11,PayPal,delivered
+66,15,9,1,2025-09-07,335.89,Card,cancelled
+67,64,41,4,2025-10-19,275.36,Apple Pay,delivered
+68,88,38,1,2026-01-15,255.01,PayPal,delivered
+69,32,20,2,2025-11-20,203.78,Card,cancelled
+70,44,48,2,2025-06-18,21.32,Card,delivered
+71,61,49,2,2025-05-04,176.09,Gift Card,delivered
+72,17,1,3,2026-05-02,48.48,Gift Card,cancelled
+73,3,29,3,2026-04-29,324.57,Gift Card,delivered
+74,1,29,1,2026-06-24,324.57,PayPal,processing
+75,57,5,4,2025-12-24,191.97,Gift Card,delivered
+76,94,20,3,2025-07-01,203.78,Gift Card,delivered
+77,41,11,1,2026-08-30,158.91,PayPal,delivered
+78,90,19,4,2026-02-12,202.92,Apple Pay,delivered
+79,13,15,4,2026-05-22,305.5,Apple Pay,delivered
+80,51,14,3,2025-09-08,202.49,Apple Pay,delivered
+81,58,16,2,2025-04-28,328.13,Apple Pay,delivered
+82,80,13,3,2026-04-10,136.28,Gift Card,delivered
+83,17,29,4,2025-05-10,324.57,Card,delivered
+84,95,3,3,2025-11-29,225.73,Gift Card,delivered
+85,89,41,3,2025-04-30,275.36,Apple Pay,processing
+86,45,49,4,2025-04-10,176.09,PayPal,delivered
+87,68,28,4,2025-09-23,106.32,PayPal,delivered
+88,49,23,1,2026-06-13,204.34,PayPal,delivered
+89,63,40,4,2025-06-03,197.05,PayPal,delivered
+90,25,24,1,2026-07-06,304.49,Card,delivered
+91,51,8,4,2025-10-10,138.46,Card,delivered
+92,42,20,1,2026-06-23,203.78,Card,delivered
+93,85,10,4,2025-08-03,143.34,Card,delivered
+94,25,36,4,2025-10-16,211.56,PayPal,delivered
+95,45,16,2,2025-07-03,328.13,Gift Card,cancelled
+96,13,36,4,2026-05-19,211.56,Card,delivered
+97,60,28,1,2025-07-05,106.32,Gift Card,delivered
+98,61,23,1,2026-08-13,204.34,Gift Card,delivered
+99,82,5,3,2025-04-12,191.97,PayPal,delivered
+100,45,11,1,2026-05-08,158.91,Apple Pay,delivered
+101,56,7,2,2025-09-22,201.44,Card,delivered
+102,82,6,3,2025-11-08,103.35,Gift Card,processing
+103,75,20,2,2025-04-12,203.78,PayPal,delivered
+104,33,3,3,2025-04-09,225.73,Gift Card,delivered
+105,95,17,2,2025-07-05,389.9,PayPal,delivered
+106,67,20,3,2025-11-16,203.78,Card,processing
+107,32,1,2,2025-10-20,48.48,Apple Pay,delivered
+108,82,8,3,2025-08-11,138.46,Gift Card,delivered
+109,78,25,1,2025-09-14,188.69,Gift Card,delivered
+110,58,38,3,2025-09-09,255.01,Apple Pay,delivered
+111,46,25,3,2026-01-16,188.69,Gift Card,delivered
+112,53,30,1,2026-09-07,127.08,Apple Pay,delivered
+113,70,4,1,2025-10-27,302.34,Gift Card,delivered
+114,39,46,3,2026-09-28,165.41,PayPal,delivered
+115,10,15,2,2026-08-11,305.5,Apple Pay,processing
+116,80,35,4,2026-06-17,175.81,Card,delivered
+117,14,27,2,2026-06-03,339.85,Card,processing
+118,10,38,4,2026-08-24,255.01,PayPal,delivered
+119,72,48,1,2025-12-11,21.32,Gift Card,processing
+120,72,44,4,2026-03-20,281.89,Card,delivered
+121,20,18,2,2025-08-20,197.45,Card,delivered
+122,74,27,4,2025-07-06,339.85,PayPal,processing
+123,37,50,1,2026-05-22,208.44,Gift Card,delivered
+124,95,30,2,2026-03-04,127.08,Apple Pay,delivered
+125,89,19,1,2026-06-17,202.92,PayPal,delivered
+126,10,24,4,2026-07-16,304.49,Card,delivered
+127,86,6,3,2026-02-18,103.35,PayPal,delivered
+128,12,20,1,2026-07-18,203.78,PayPal,delivered
+129,45,9,2,2026-04-30,335.89,PayPal,delivered
+130,88,8,4,2026-01-16,138.46,Gift Card,delivered
+131,25,49,2,2025-09-27,176.09,Gift Card,delivered
+132,82,39,2,2025-12-11,134.1,Card,cancelled
+133,45,15,3,2025-06-02,305.5,Card,processing
+134,20,18,4,2025-08-24,197.45,Card,delivered
+135,16,17,4,2026-07-19,389.9,Gift Card,delivered
+136,39,9,1,2026-07-23,335.89,Apple Pay,delivered
+137,12,13,2,2026-09-19,136.28,Card,cancelled
+138,26,2,3,2026-06-26,308.45,Apple Pay,delivered
+139,67,27,3,2026-02-18,339.85,Card,delivered
+140,87,37,4,2025-05-18,335.86,Gift Card,delivered
+141,84,22,3,2026-03-08,371.66,Apple Pay,delivered
+142,68,23,4,2026-07-10,204.34,Card,delivered
+143,88,4,1,2025-06-04,302.34,PayPal,processing
+144,61,26,1,2025-10-01,22.96,Card,delivered
+145,32,28,2,2026-03-02,106.32,Apple Pay,cancelled
+146,59,44,1,2026-05-29,281.89,Card,delivered
+147,68,31,3,2026-04-07,278.59,Gift Card,processing
+148,83,9,2,2025-11-26,335.89,PayPal,delivered
+149,56,19,4,2025-07-11,202.92,Gift Card,delivered
+150,51,25,3,2026-02-22,188.69,Gift Card,delivered
+151,41,46,2,2025-10-27,165.41,Card,processing
+152,95,18,2,2026-07-11,197.45,Gift Card,delivered
+153,93,50,2,2025-11-18,208.44,Gift Card,delivered
+154,59,3,3,2025-12-07,225.73,Card,delivered
+155,36,50,4,2025-10-21,208.44,Card,delivered
+156,68,33,4,2025-11-13,186.74,Gift Card,delivered
+157,90,44,3,2026-05-31,281.89,Card,delivered
+158,17,16,3,2025-11-09,328.13,PayPal,delivered
+159,87,18,1,2025-12-14,197.45,PayPal,delivered
+160,36,50,4,2025-12-19,208.44,Gift Card,cancelled
+161,97,46,1,2026-05-22,165.41,Apple Pay,processing
+162,51,1,2,2025-08-26,48.48,Card,delivered
+163,52,49,1,2026-09-30,176.09,Card,delivered
+164,3,46,1,2025-11-13,165.41,PayPal,delivered
+165,63,4,1,2026-06-12,302.34,Gift Card,delivered
+166,26,49,2,2025-05-14,176.09,PayPal,cancelled
+167,5,24,4,2026-08-28,304.49,PayPal,delivered
+168,68,33,4,2025-06-28,186.74,Card,processing
+169,91,26,1,2026-06-15,22.96,Apple Pay,delivered
+170,46,6,1,2026-09-25,103.35,PayPal,delivered
+171,66,16,1,2026-08-11,328.13,Apple Pay,delivered
+172,27,1,1,2025-11-18,48.48,PayPal,delivered
+173,97,29,1,2025-07-16,324.57,Gift Card,delivered
+174,45,12,2,2026-08-16,235.21,Card,processing
+175,18,27,4,2026-08-18,339.85,Card,processing
+176,100,39,4,2025-06-02,134.1,Card,processing
+177,64,39,2,2026-04-10,134.1,PayPal,delivered
+178,66,5,2,2026-03-13,191.97,Gift Card,delivered
+179,17,32,1,2025-04-24,157.43,Gift Card,delivered
+180,72,8,2,2026-06-14,138.46,Apple Pay,cancelled
+181,3,43,4,2025-06-05,130.6,Apple Pay,delivered
+182,70,21,1,2025-07-24,214.14,Gift Card,cancelled
+183,30,22,1,2025-08-22,371.66,Gift Card,delivered
+184,67,10,3,2025-06-13,143.34,PayPal,delivered
+185,93,6,2,2026-01-01,103.35,Card,delivered
+186,88,44,2,2025-09-10,281.89,Apple Pay,delivered
+187,96,27,4,2026-04-28,339.85,PayPal,delivered
+188,85,40,2,2026-09-15,197.05,PayPal,delivered
+189,40,10,2,2026-09-03,143.34,Apple Pay,delivered
+190,21,34,2,2025-06-09,163.01,Card,processing
+191,88,39,3,2026-08-16,134.1,Gift Card,delivered
+192,83,8,4,2026-09-19,138.46,Apple Pay,delivered
+193,16,30,1,2026-06-15,127.08,PayPal,delivered
+194,81,10,3,2026-04-01,143.34,Gift Card,delivered
+195,96,28,2,2025-06-06,106.32,PayPal,processing
+196,51,45,1,2025-04-25,180.11,PayPal,delivered
+197,76,26,1,2026-04-04,22.96,Card,delivered
+198,45,26,1,2025-06-21,22.96,Card,delivered
+199,17,14,4,2025-08-24,202.49,Apple Pay,delivered
+200,29,9,4,2025-12-02,335.89,Gift Card,processing
+201,42,3,1,2026-03-08,225.73,Apple Pay,delivered
+202,94,46,1,2025-07-11,165.41,PayPal,processing
+203,93,32,1,2025-06-02,157.43,Card,cancelled
+204,16,11,3,2026-02-11,158.91,PayPal,delivered
+205,10,27,3,2025-09-20,339.85,Card,delivered
+206,72,42,4,2026-09-14,214.1,Card,delivered
+207,28,7,4,2026-07-14,201.44,Card,delivered
+208,81,2,2,2026-04-02,308.45,Apple Pay,delivered
+209,14,23,2,2026-09-29,204.34,Apple Pay,cancelled
+210,16,6,3,2026-05-13,103.35,Apple Pay,processing
+211,66,14,3,2026-06-04,202.49,Card,processing
+212,18,14,4,2026-07-25,202.49,PayPal,delivered
+213,17,47,1,2026-05-20,32.96,PayPal,delivered
+214,28,45,4,2026-03-05,180.11,Gift Card,processing
+215,69,30,4,2025-08-21,127.08,Card,delivered
+216,2,24,3,2026-04-08,304.49,Apple Pay,processing
+217,67,45,3,2025-12-11,180.11,PayPal,delivered
+218,97,29,4,2025-12-29,324.57,Card,delivered
+219,21,40,4,2025-11-17,197.05,Apple Pay,delivered
+220,57,26,4,2026-08-21,22.96,Apple Pay,processing
+221,96,30,1,2026-02-13,127.08,PayPal,delivered
+222,7,43,3,2025-10-17,130.6,Card,delivered
+223,51,24,4,2026-09-19,304.49,Gift Card,delivered
+224,55,17,2,2026-02-09,389.9,PayPal,delivered
+225,87,39,2,2025-08-28,134.1,Gift Card,delivered
+226,2,40,4,2025-12-16,197.05,Apple Pay,delivered
+227,77,20,1,2026-01-24,203.78,Gift Card,delivered
+228,41,27,2,2026-05-23,339.85,Gift Card,delivered
+229,87,1,4,2025-10-18,48.48,Gift Card,delivered
+230,49,23,1,2025-08-08,204.34,Apple Pay,delivered
+231,64,36,2,2026-08-16,211.56,PayPal,delivered
+232,22,12,1,2025-07-05,235.21,Gift Card,delivered
+233,32,47,4,2026-07-02,32.96,Card,delivered
+234,100,37,4,2025-08-09,335.86,Card,delivered
+235,97,33,2,2026-04-12,186.74,Card,processing
+236,3,6,4,2026-05-05,103.35,Apple Pay,delivered
+237,64,34,2,2026-08-09,163.01,Gift Card,delivered
+238,20,18,3,2026-02-20,197.45,Card,processing
+239,100,29,3,2025-07-22,324.57,Gift Card,delivered
+240,22,41,2,2026-06-07,275.36,Gift Card,delivered
+241,57,29,2,2026-07-06,324.57,Apple Pay,delivered
+242,48,14,3,2025-11-28,202.49,Gift Card,delivered
+243,78,43,4,2025-07-08,130.6,PayPal,delivered
+244,23,5,1,2026-02-27,191.97,PayPal,delivered
+245,17,47,4,2025-08-21,32.96,Gift Card,cancelled
+246,21,11,4,2026-07-01,158.91,PayPal,delivered
+247,99,8,2,2025-12-25,138.46,Gift Card,delivered
+248,86,2,2,2025-09-13,308.45,PayPal,delivered
+249,8,32,3,2026-04-08,157.43,Apple Pay,delivered
+250,42,32,2,2025-06-07,157.43,Card,delivered
+251,52,14,3,2025-10-31,202.49,PayPal,delivered
+252,5,46,4,2026-01-09,165.41,Apple Pay,delivered
+253,10,5,3,2025-09-12,191.97,Apple Pay,delivered
+254,74,28,3,2025-12-13,106.32,Apple Pay,delivered
+255,6,2,4,2025-12-30,308.45,Apple Pay,delivered
+256,37,35,1,2026-09-30,175.81,Card,delivered
+257,31,5,3,2025-07-19,191.97,Card,delivered
+258,88,2,2,2025-06-12,308.45,Card,delivered
+259,83,50,4,2026-07-26,208.44,Card,delivered
+260,15,37,3,2025-12-12,335.86,Apple Pay,delivered
+261,9,24,1,2025-10-02,304.49,Gift Card,delivered
+262,86,16,2,2026-07-22,328.13,Card,delivered
+263,45,19,1,2026-04-15,202.92,Card,delivered
+264,65,40,1,2025-12-14,197.05,Apple Pay,delivered
+265,10,20,2,2026-02-16,203.78,Gift Card,delivered
+266,28,42,4,2025-07-02,214.1,Apple Pay,processing
+267,13,27,3,2025-12-09,339.85,PayPal,delivered
+268,39,17,1,2025-10-24,389.9,Apple Pay,cancelled
+269,65,3,4,2025-09-17,225.73,Apple Pay,delivered
+270,46,28,2,2025-10-30,106.32,PayPal,delivered
+271,42,50,4,2026-07-15,208.44,Gift Card,delivered
+272,34,2,3,2025-08-18,308.45,Card,delivered
+273,64,24,1,2025-08-06,304.49,Apple Pay,delivered
+274,84,25,1,2025-11-20,188.69,PayPal,delivered
+275,60,40,1,2025-12-25,197.05,PayPal,delivered
+276,63,18,4,2025-06-26,197.45,Gift Card,delivered
+277,87,36,4,2026-07-18,211.56,Card,delivered
+278,90,18,1,2025-04-16,197.45,Gift Card,processing
+279,30,42,3,2026-08-15,214.1,Gift Card,delivered
+280,41,28,2,2026-06-15,106.32,Apple Pay,delivered
+281,75,44,3,2025-12-22,281.89,Gift Card,cancelled
+282,15,33,1,2025-06-30,186.74,Apple Pay,delivered
+283,69,8,4,2026-05-05,138.46,Apple Pay,delivered
+284,52,19,1,2026-04-09,202.92,PayPal,cancelled
+285,2,12,3,2025-10-20,235.21,PayPal,delivered
+286,43,36,1,2026-04-23,211.56,Apple Pay,processing
+287,60,49,4,2026-07-27,176.09,Gift Card,delivered
+288,66,32,3,2025-08-14,157.43,Card,delivered
+289,59,35,3,2025-11-10,175.81,Gift Card,delivered
+290,55,1,3,2025-09-27,48.48,Apple Pay,delivered
+291,25,47,4,2025-05-18,32.96,Card,delivered
+292,93,32,3,2026-03-22,157.43,Card,delivered
+293,24,17,3,2025-04-17,389.9,Gift Card,delivered
+294,58,17,2,2025-08-10,389.9,Apple Pay,delivered
+295,26,9,1,2026-07-19,335.89,Card,delivered
+296,18,40,1,2026-03-05,197.05,Apple Pay,delivered
+297,5,21,1,2025-06-01,214.14,Gift Card,delivered
+298,44,45,3,2025-10-04,180.11,Gift Card,delivered
+299,4,8,4,2026-03-31,138.46,PayPal,delivered
+300,68,13,2,2025-07-01,136.28,Card,cancelled
+301,36,21,1,2025-12-23,214.14,PayPal,delivered
+302,16,8,3,2026-03-01,138.46,Gift Card,delivered
+303,58,13,4,2025-08-12,136.28,Gift Card,delivered
+304,90,20,4,2026-07-15,203.78,Apple Pay,cancelled
+305,26,9,2,2026-06-29,335.89,PayPal,cancelled
+306,35,24,2,2025-05-19,304.49,Gift Card,delivered
+307,23,47,4,2025-12-27,32.96,Apple Pay,processing
+308,2,19,2,2026-08-21,202.92,Gift Card,delivered
+309,67,11,3,2026-03-04,158.91,Card,cancelled
+310,28,13,3,2026-06-27,136.28,PayPal,processing
+311,13,41,3,2025-10-24,275.36,Gift Card,delivered
+312,97,19,1,2025-10-31,202.92,Gift Card,delivered
+313,84,31,1,2026-05-14,278.59,Apple Pay,delivered
+314,20,2,3,2026-05-07,308.45,Gift Card,delivered
+315,9,6,4,2026-03-30,103.35,Gift Card,processing
+316,80,22,2,2025-09-28,371.66,Card,delivered
+317,10,4,3,2026-05-04,302.34,Gift Card,delivered
+318,75,20,4,2026-09-10,203.78,Apple Pay,delivered
+319,81,33,2,2026-08-09,186.74,Card,cancelled
+320,81,3,4,2026-07-23,225.73,Apple Pay,processing
+321,42,24,3,2025-06-27,304.49,PayPal,delivered
+322,27,18,2,2026-08-12,197.45,PayPal,delivered
+323,92,22,3,2026-08-27,371.66,PayPal,delivered
+324,65,18,2,2026-09-30,197.45,Apple Pay,processing
+325,76,46,1,2025-07-23,165.41,Card,processing
+326,17,10,4,2025-09-17,143.34,Apple Pay,delivered
+327,43,20,2,2026-01-04,203.78,Apple Pay,delivered
+328,40,43,3,2026-07-11,130.6,Apple Pay,processing
+329,94,24,2,2026-04-14,304.49,Card,delivered
+330,98,48,2,2025-08-10,21.32,Card,delivered
+331,89,36,4,2026-02-26,211.56,Card,delivered
+332,58,24,2,2025-08-03,304.49,Card,delivered
+333,67,49,4,2026-08-08,176.09,Apple Pay,delivered
+334,15,44,2,2025-06-03,281.89,Gift Card,delivered
+335,44,16,2,2025-10-14,328.13,Gift Card,delivered
+336,31,30,1,2025-06-05,127.08,PayPal,delivered
+337,2,37,1,2025-09-02,335.86,PayPal,delivered
+338,29,9,4,2025-12-24,335.89,Apple Pay,delivered
+339,64,19,2,2025-07-26,202.92,Card,delivered
+340,16,3,3,2026-06-18,225.73,Gift Card,delivered
+341,12,18,2,2026-04-11,197.45,Apple Pay,cancelled
+342,14,21,2,2026-07-15,214.14,Gift Card,cancelled
+343,44,31,4,2025-06-30,278.59,Apple Pay,delivered
+344,20,27,1,2025-09-23,339.85,Card,delivered
+345,66,48,3,2026-03-15,21.32,PayPal,processing
+346,76,39,1,2025-06-30,134.1,Gift Card,delivered
+347,13,15,1,2025-06-28,305.5,Apple Pay,delivered
+348,50,4,1,2025-08-22,302.34,Gift Card,processing
+349,50,20,3,2025-06-28,203.78,Gift Card,processing
+350,31,32,4,2025-05-02,157.43,Card,delivered
+351,59,46,4,2026-07-29,165.41,PayPal,processing
+352,17,13,4,2025-11-13,136.28,Gift Card,cancelled
+353,49,3,2,2025-07-11,225.73,PayPal,processing
+354,43,18,4,2025-12-20,197.45,Card,delivered
+355,37,32,4,2026-03-22,157.43,PayPal,delivered
+356,59,19,2,2025-07-25,202.92,Gift Card,delivered
+357,25,1,3,2026-01-10,48.48,Gift Card,delivered
+358,12,8,2,2026-02-26,138.46,Card,delivered
+359,24,4,3,2025-11-16,302.34,Card,delivered
+360,82,20,1,2025-09-14,203.78,PayPal,delivered
+361,54,43,4,2026-09-09,130.6,Gift Card,delivered
+362,97,19,3,2026-03-09,202.92,Card,delivered
+363,54,49,4,2025-10-06,176.09,Card,processing
+364,98,32,2,2025-09-13,157.43,Apple Pay,delivered
+365,93,44,4,2025-11-01,281.89,Card,delivered
+366,97,32,2,2025-08-01,157.43,Card,delivered
+367,11,9,1,2026-04-04,335.89,Gift Card,delivered
+368,24,29,4,2026-03-01,324.57,Gift Card,delivered
+369,55,26,4,2025-05-26,22.96,Card,cancelled
+370,76,43,4,2026-03-13,130.6,Card,delivered
+371,70,37,1,2025-04-24,335.86,Apple Pay,cancelled
+372,4,40,2,2025-06-05,197.05,Gift Card,delivered
+373,49,11,2,2025-11-23,158.91,Apple Pay,delivered
+374,80,1,1,2026-01-14,48.48,Gift Card,delivered
+375,100,36,3,2026-08-31,211.56,Gift Card,processing
+376,21,27,3,2025-09-28,339.85,Card,delivered
+377,77,50,4,2026-01-15,208.44,Apple Pay,delivered
+378,20,23,2,2026-06-20,204.34,Gift Card,delivered
+379,56,16,4,2025-11-13,328.13,PayPal,delivered
+380,89,39,1,2025-12-08,134.1,Gift Card,delivered
+381,58,27,1,2026-02-02,339.85,Gift Card,delivered
+382,33,49,4,2026-06-14,176.09,Gift Card,delivered
+383,85,9,4,2026-03-30,335.89,Apple Pay,delivered
+384,15,43,4,2026-09-03,130.6,Gift Card,delivered
+385,65,47,4,2025-11-30,32.96,Apple Pay,delivered
+386,74,44,2,2026-01-05,281.89,Apple Pay,delivered
+387,22,42,3,2026-09-05,214.1,Apple Pay,cancelled
+388,97,21,1,2025-07-09,214.14,Gift Card,processing
+389,35,13,3,2026-03-02,136.28,Card,processing
+390,20,6,4,2026-03-17,103.35,Apple Pay,delivered
+391,13,49,4,2026-04-02,176.09,Card,processing
+392,34,33,1,2026-08-04,186.74,PayPal,processing
+393,24,19,4,2025-04-23,202.92,Gift Card,delivered
+394,5,3,3,2026-08-17,225.73,PayPal,processing
+395,79,32,4,2025-09-15,157.43,Gift Card,delivered
+396,69,31,1,2026-08-24,278.59,Card,delivered
+397,13,3,2,2026-03-10,225.73,PayPal,delivered
+398,93,14,1,2025-07-17,202.49,Apple Pay,processing
+399,64,32,1,2026-05-24,157.43,PayPal,delivered
+400,55,11,4,2026-04-07,158.91,Card,delivered
+401,45,16,2,2026-07-23,328.13,Gift Card,delivered
+402,71,7,3,2025-11-15,201.44,PayPal,delivered
+403,51,2,1,2026-06-29,308.45,PayPal,delivered
+404,81,4,4,2025-09-03,302.34,Gift Card,delivered
+405,2,42,3,2025-10-22,214.1,PayPal,delivered
+406,71,9,3,2026-09-09,335.89,Gift Card,delivered
+407,7,6,3,2025-08-07,103.35,Apple Pay,delivered
+408,9,9,4,2025-10-02,335.89,PayPal,delivered
+409,12,13,1,2026-05-29,136.28,Apple Pay,delivered
+410,91,25,2,2026-08-16,188.69,PayPal,delivered
+411,44,50,2,2026-05-14,208.44,Gift Card,delivered
+412,96,13,2,2026-05-11,136.28,Apple Pay,delivered
+413,7,11,3,2026-03-25,158.91,Apple Pay,delivered
+414,16,18,2,2026-05-30,197.45,PayPal,delivered
+415,61,47,4,2026-04-27,32.96,Card,delivered
+416,71,16,3,2025-06-26,328.13,Gift Card,delivered
+417,79,45,3,2026-03-16,180.11,Card,delivered
+418,44,24,2,2026-06-02,304.49,Card,delivered
+419,100,8,4,2025-04-27,138.46,Gift Card,delivered
+420,71,41,3,2026-01-04,275.36,Card,delivered
+421,42,27,4,2026-03-27,339.85,Card,processing
+422,15,5,2,2026-06-19,191.97,Card,processing
+423,51,36,3,2025-12-14,211.56,Apple Pay,delivered
+424,81,45,3,2026-07-23,180.11,Apple Pay,delivered
+425,67,50,2,2025-12-24,208.44,Card,delivered
+426,29,48,3,2026-02-17,21.32,Apple Pay,processing
+427,9,41,1,2026-09-27,275.36,Gift Card,delivered
+428,34,31,3,2026-05-23,278.59,Card,cancelled
+429,38,2,3,2026-07-28,308.45,Card,delivered
+430,30,22,1,2026-07-26,371.66,Card,processing
+431,50,21,2,2026-08-01,214.14,Card,delivered
+432,38,26,3,2026-04-25,22.96,Card,processing
+433,40,3,4,2025-09-04,225.73,Apple Pay,delivered
+434,17,20,4,2025-06-23,203.78,Card,delivered
+435,30,25,3,2025-09-08,188.69,PayPal,cancelled
+436,98,46,1,2026-07-31,165.41,Card,cancelled
+437,3,36,4,2025-11-03,211.56,PayPal,delivered
+438,2,49,1,2026-06-06,176.09,Apple Pay,delivered
+439,64,39,1,2026-09-17,134.1,Card,delivered
+440,62,8,4,2026-04-11,138.46,PayPal,delivered
+441,41,38,3,2026-08-04,255.01,Apple Pay,delivered
+442,73,46,2,2026-07-02,165.41,PayPal,delivered
+443,74,2,1,2026-04-25,308.45,Gift Card,delivered
+444,35,3,1,2025-04-13,225.73,Gift Card,delivered
+445,81,14,4,2026-08-24,202.49,Gift Card,processing
+446,99,8,2,2026-04-03,138.46,Apple Pay,delivered
+447,49,41,3,2025-07-31,275.36,Gift Card,delivered
+448,47,41,1,2025-06-17,275.36,Apple Pay,delivered
+449,32,9,1,2026-08-20,335.89,Gift Card,processing
+450,17,45,3,2025-05-22,180.11,Apple Pay,processing
+451,88,3,1,2026-08-29,225.73,PayPal,delivered
+452,28,19,3,2025-12-25,202.92,PayPal,delivered
+453,80,29,3,2026-08-18,324.57,Gift Card,delivered
+454,26,38,3,2025-12-23,255.01,Card,delivered
+455,39,48,2,2025-04-23,21.32,Card,delivered
+456,52,18,1,2026-08-25,197.45,PayPal,delivered
+457,94,3,4,2025-10-22,225.73,Card,delivered
+458,71,42,1,2025-04-08,214.1,Apple Pay,cancelled
+459,56,41,1,2026-01-31,275.36,Gift Card,processing
+460,37,24,3,2025-07-16,304.49,PayPal,delivered
+461,65,22,4,2026-05-23,371.66,Card,delivered
+462,48,7,4,2026-06-07,201.44,Gift Card,delivered
+463,44,1,3,2026-05-05,48.48,Gift Card,delivered
+464,12,48,4,2026-08-06,21.32,PayPal,delivered
+465,82,28,4,2025-09-30,106.32,PayPal,delivered
+466,40,36,2,2026-03-19,211.56,Gift Card,cancelled
+467,67,22,2,2025-12-12,371.66,PayPal,processing
+468,44,24,4,2026-08-18,304.49,PayPal,delivered
+469,33,38,4,2026-08-24,255.01,PayPal,delivered
+470,20,47,4,2026-07-15,32.96,PayPal,delivered
+471,69,21,4,2026-07-14,214.14,Card,processing
+472,22,17,1,2025-04-23,389.9,Apple Pay,delivered
+473,48,22,2,2026-05-13,371.66,Apple Pay,processing
+474,78,22,2,2026-03-30,371.66,PayPal,processing
+475,80,49,2,2026-06-16,176.09,Card,delivered
+476,13,43,1,2025-07-03,130.6,Card,delivered
+477,59,32,3,2026-05-09,157.43,Card,processing
+478,21,6,3,2026-01-05,103.35,Gift Card,delivered
+479,36,14,3,2025-09-04,202.49,Apple Pay,cancelled
+480,99,42,4,2026-04-28,214.1,Card,delivered
+481,36,36,3,2025-05-04,211.56,Gift Card,delivered
+482,19,9,2,2025-08-29,335.89,Card,delivered
+483,24,22,4,2025-09-05,371.66,Apple Pay,delivered
+484,92,21,1,2025-06-20,214.14,Card,delivered
+485,31,47,3,2026-01-19,32.96,Gift Card,processing
+486,52,15,4,2025-06-21,305.5,Card,delivered
+487,40,8,4,2026-01-28,138.46,Apple Pay,delivered
+488,40,33,3,2026-05-02,186.74,Gift Card,processing
+489,68,8,1,2026-05-13,138.46,Card,processing
+490,85,18,1,2025-05-29,197.45,Card,delivered
+491,14,2,1,2025-10-30,308.45,PayPal,processing
+492,35,37,1,2026-08-17,335.86,Gift Card,delivered
+493,16,17,2,2026-01-24,389.9,Card,delivered
+494,23,19,1,2026-09-19,202.92,Card,delivered
+495,42,32,3,2025-12-02,157.43,Apple Pay,processing
+496,68,25,1,2025-05-21,188.69,Card,cancelled
+497,50,18,4,2025-06-23,197.45,PayPal,delivered
+498,36,24,2,2026-06-24,304.49,Apple Pay,delivered
+499,1,10,3,2025-11-24,143.34,Apple Pay,delivered
+500,24,6,1,2025-06-07,103.35,Apple Pay,delivered

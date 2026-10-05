@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f4ed">
+  <title>SmartCart | Thoughtful finds</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="wordmark" href="/" aria-label="SmartCart home"><span class="mark">S</span> smartcart<span class="wordmark-dot">.</span></a>
+    <label class="search-box"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Find something good" aria-label="Search products"><kbd>/</kbd></label>
+    <div class="account-tools">
+      <span id="account-label" class="account-label">Guest</span>
+      <button id="account-button" class="quiet-button" type="button">Sign in</button>
+      <button id="cart-jump" class="cart-button" type="button" aria-label="View cart">Bag <span id="cart-count">0</span></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="shop-heading">
+      <div>
+        <p class="eyebrow">THE SMARTER WAY TO SHOP</p>
+        <h1>Good finds.<br><em>Better picked.</em></h1>
+      </div>
+      <div class="shop-aside">
+        <p>Thoughtful picks from independent everyday essentials to the things you didn't know you needed.</p>
+        <div class="shop-meta"><span id="product-count">50 finds</span><span class="meta-divider"></span><span>Curated for you</span></div>
+      </div>
+      <div class="heading-stamp" aria-hidden="true"><span>MAKE ROOM<br>FOR BETTER</span><b>↗</b></div>
+    </section>
+
+    <section class="controls-row" aria-label="Product filters">
+      <div id="category-tabs" class="category-tabs" role="tablist" aria-label="Product category">
+        <button class="category-tab active" data-category="" role="tab" aria-selected="true">Everything</button>
+      </div>
+      <span class="sort-label">Picked with purpose <span>✳</span></span>
+    </section>
+
+    <div class="store-layout">
+      <section class="product-area" aria-label="Products">
+        <div id="product-grid" class="product-grid" aria-live="polite"></div>
+      </section>
+      <aside class="side-rail">
+        <section class="rail-section recommendation-section">
+          <div class="rail-heading"><div><span class="rail-kicker">A LITTLE YOU</span><h2>Picked for you</h2></div><span class="sparkle">✳</span></div>
+          <p id="recommendation-note" class="rail-note">Sign in to see your personal edit.</p>
+          <div id="recommendation-list" class="recommendation-list"></div>
+        </section>
+        <section id="cart" class="rail-section cart-section">
+          <div class="rail-heading"><div><span class="rail-kicker">YOUR SELECTION</span><h2>Your bag <span id="bag-items">(0)</span></h2></div><span class="bag-icon">↘</span></div>
+          <div id="cart-list" class="cart-list"><p class="empty-state">Your next great find goes here.</p></div>
+          <div class="cart-total"><span>Subtotal</span><strong id="cart-total">$0.00</strong></div>
+          <label class="payment-label" for="payment-method">Pay with</label>
+          <select id="payment-method"><option>Card</option><option>PayPal</option><option>Apple Pay</option><option>Gift Card</option></select>
+          <button id="checkout" class="checkout-button" type="button" disabled>Checkout <span>↗</span></button>
+          <p id="checkout-message" class="form-message" role="status"></p>
+        </section>
+        <section id="dashboard" class="rail-section dashboard-section hidden">
+          <div class="rail-heading"><div><span class="rail-kicker">YOUR SMARTCART</span><h2>Your account</h2></div></div>
+          <div id="dashboard-content"></div>
+          <button id="signout" class="text-button" type="button">Sign out ↗</button>
+        </section>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="footer"><a class="wordmark" href="/">smartcart<span class="wordmark-dot">.</span></a><span>Thoughtful picks, made personal.</span><a href="/docs">API docs ↗</a></footer>
+
+  <dialog id="auth-dialog" class="auth-dialog">
+    <form method="dialog" class="dialog-close-row"><button class="dialog-close" aria-label="Close">×</button></form>
+    <p class="eyebrow">WELCOME TO SMARTCART</p><h2 id="auth-title">Sign in</h2>
+    <div class="auth-switch"><button class="auth-mode active" data-mode="login" type="button">Sign in</button><button class="auth-mode" data-mode="register" type="button">Create account</button></div>
+    <form id="auth-form" class="auth-form">
+      <label id="name-field" class="hidden">Your name<input name="full_name" autocomplete="name" minlength="2"></label>
+      <label>Email address<input name="email" type="email" autocomplete="email" required></label>
+      <label>Password<input name="password" type="password" autocomplete="current-password" minlength="8" required></label>
+      <label id="age-field" class="hidden">Age<input name="age" type="number" min="18" max="100" value="30"></label>
+      <label id="city-field" class="hidden">City<input name="city" value="Austin"></label>
+      <button class="checkout-button" type="submit"><span id="auth-submit">Sign in</span><span>↗</span></button>
+      <p id="auth-message" class="form-message" role="status"></p>
+    </form>
+    <p class="demo-hint">Demo: maya@smartcart.com · Customer123!</p>
+  </dialog>
+  <div id="toast" class="toast" role="status"></div>
+  <script src="/static/app.js" defer></script>
+</body>
+</html>
